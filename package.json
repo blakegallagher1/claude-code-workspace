@@ -1,0 +1,14 @@
+{
+  "name": "claude-code-workspace",
+  "version": "1.0.0",
+  "description": "CryptoScout AI project with multi-agent system",
+  "main": "coordinator.js",
+  "scripts": {
+    "start": "node coordinator.js",
+    "setup": "npm install axios dotenv"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.4.0"
+  }
+}
