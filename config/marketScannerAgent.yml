@@ -1,0 +1,8 @@
+name: market_scanner_agent
+description: |
+  Scans multiple DEXes for newly launched tokens and filters them based on liquidity, volume, and age heuristics.
+actions:
+  scan_new_tokens:
+    description: Scan for new tokens and return a report.
+    module: agents/marketScanner
+    function: scanNewTokens
